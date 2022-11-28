@@ -4,7 +4,7 @@
 
 1. Open "Notes.sln" in Visual Studio 2022
 2. Right click Solution and verify both projects are set as startup projects (see screenshot):
-![Alt text](./startupConfig.jpg "Optional title")
+![Alt text](./startupconfig.jpg "Optional title")
 3. Select "Start"
 4. Both Apps should now start on localhost at the following ports.
      - React App* on localhost:3000
