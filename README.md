@@ -1,6 +1,5 @@
 # Notes
 ---
-
 ## Running App + API Together
 
 1. Open "Notes.sln" in Visual Studio 2022
@@ -21,10 +20,15 @@ A basic CRUD API using SQLite and Dapper.
 ### Notes App
 A React App that consumes the Notes API. 
 
-**NOTE**: This was my first time building a React App from scratch and there were a few things I was still troubleshooting and would like to come back to and correct. I think they all have to do with my project setup. 
+**NOTE**: This was my first time building a React App from scratch and there were a few things I would like to come back and fine tune.
 
- - Sometimes two instances of the app would Start when running from Visual Studio.
+I believe they all have to do with my project setup as they only seem to be an issue on the initial runs. Subsequent runs do not encounter these issues.
 
-- I  disabled es-lint in `packages.json` as it was throwing an error due to the capitalization of my file paths. Though it does supress the error it sometimes will still show on initial build.
+ - Two instances of the app would Start when running from Visual Studio.
 
-- I would also like to set a custom port so it's not running on the the default port of 3000. I was able to change this in `packages.json` as well but the aforementioned anomlay of two app instances meant one would start on port 3000, another on the custom port. 
+- I  disabled es-lint in `packages.json` as it was throwing an error due to the capitalization of my file paths.
+
+- I would like to set a custom port so it's not running on the default port of 3000. 
+    - I was able to change this in `packages.json` as well but the aforementioned anomaly of two app instances meant one would start on port 3000, another on the custom port.
+
+Also, there has to be a better way to filter out only the packages needed in `node_modules`.
