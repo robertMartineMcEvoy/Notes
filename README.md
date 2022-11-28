@@ -2,7 +2,7 @@
 ---
 ## Running App + API Together
 
-1. Open "Notes.sln" in Visual Studio 2022
+1. Open `Notes.sln` in Visual Studio 2022
 2. Right click Solution and verify both projects are set as startup projects (see screenshot):
 ![Alt text](./startupconfig.jpg "Optional title")
 3. Select "Start"
